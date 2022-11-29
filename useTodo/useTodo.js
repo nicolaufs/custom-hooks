@@ -7,8 +7,6 @@ const init = () => {
 
 export const useTodo = (initTodos) => {
 
-
-
     const [todos, dispatch] = useReducer(todoReducer, initTodos, init)
 
     const todosCount = todos.length;
